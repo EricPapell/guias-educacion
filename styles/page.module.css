@@ -1,0 +1,78 @@
+/* CARROUSSEL */
+.containerCarrousel {
+  width: 100vw;
+  height: 500px;
+  position: relative;
+}
+.imageCarrousel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+.containerCarrouselBox {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.containerCarrouselInfo {
+  background: rgba(255, 255, 255, 0.846);
+  padding: 1rem;
+  width: 40%;
+}
+.divLayout {
+  width: 50%;
+}
+.containerCarrouselInfo h3 {
+  margin-top: 0.5rem;
+}
+.containerCarrouselInfo p {
+  margin-top: 1rem;
+}
+.containerCarrouselInfo button {
+  background: var(--secondary-text-Color);
+  border: transparent;
+  padding: 0.4rem 0.75rem;
+  color: white;
+  text-shadow: 1px 1px 0.5px rgb(140, 135, 135);
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: var(--transition-short);
+}
+.containerCarrouselInfo button:hover {
+  background: rgb(211, 147, 36);
+}
+.buttonRight,
+.buttonLeft {
+  background: transparent;
+  border: transparent;
+  color: aliceblue;
+  cursor: pointer;
+  width: 35px;
+  transition: var(--transition-short);
+}
+.buttonRight:hover {
+  transform: translateX(7px);
+  color: var(--secondary-text-Color);
+}
+.buttonLeft:hover {
+  transform: translateX(-7px);
+  color: var(--secondary-text-Color);
+}
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  z-index: -1;
+  opacity: 0.4;
+}
+/* CARROUSSEL */

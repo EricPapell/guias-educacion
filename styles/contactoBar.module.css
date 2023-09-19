@@ -1,0 +1,94 @@
+.footer {
+  width: 100vw;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  /* background-color: var(--primary-Background-Color); */
+  background-color: rgb(31, 31, 31);
+  text-align: center;
+  color: var(--primary-text-Color);
+
+  opacity: 0.99;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+.image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* text */
+.subtitle {
+  font-size: 0.95rem;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+  line-height: 1.5rem;
+}
+/* text */
+
+/* info */
+.infoContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 1rem;
+}
+.infoContactoUbi,
+.infoContactoTelf,
+.infoContactoMail {
+  border-right: 1px solid rgba(255, 255, 255, 0.741);
+  padding-right: 0.75rem;
+  margin-right: 0.75rem;
+  margin-bottom: 1rem;
+}
+.infoContactoMail,
+.infoContactoMail2 {
+  color: var(--secondary-text-Color);
+  text-decoration: none;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+.infoContactoMail:hover,
+.infoContactoMail2:hover {
+  color: var(--primary-lineTitle-Color);
+}
+.spanInfo {
+  padding-right: 0.5rem;
+  color: var(--secondary-text-Color);
+}
+.icon {
+  width: 15px;
+  height: auto;
+}
+/* info */
+
+/* copyrigth */
+.copyright {
+  max-width: 90vw;
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding-bottom: 3rem;
+}
+/* copyrigth */
+
+/* media */
+@media only screen and (max-width: 585px) {
+  .infoContactoUbi,
+  .infoContactoTelf,
+  .infoContactoMail {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+  }
+}
+/* media */

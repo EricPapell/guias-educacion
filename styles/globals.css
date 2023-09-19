@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+:root {
+  --primary-Background-Color: rgb(46, 46, 49);
+  --secondary-Background-Color: rgb(26, 26, 29);
+  --primary-text-Color: rgb(255, 255, 255);
+  --secondary-text-Color: rgb(230, 160, 39);
+  --primary-lineTitle-Color: rgb(255, 119, 0);
+  --transition-short: all 0.2s linear;
+}
+body {
+  height: 100vh;
+  background: rgb(250, 250, 251);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+html {
+  font-size: 1.2rem;
+}
+/* derecha */
+/* letra mas grande */
+/* cambiar foto como lo hacemos? */
+/* cambio de letra */
+/* degrare */

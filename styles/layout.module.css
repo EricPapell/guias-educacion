@@ -1,0 +1,49 @@
+.containerLogo {
+  width: 80vw;
+  padding: 1rem 0rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2.5rem;
+}
+.containerLogoCiudad {
+  display: flex;
+
+  font-size: 1.5rem;
+}
+.containerLogoCiudad select {
+  margin-left: 1rem;
+  text-align: center;
+  padding: 0rem 0.6rem;
+  font-size: 0.85rem;
+  background: rgb(242, 235, 228);
+}
+
+/* NAVBAR */
+.containerNav {
+  margin-top: 2rem;
+  background: rgb(242, 235, 228);
+  box-shadow: 1px 1px 10px rgb(163, 162, 162);
+}
+.containerNavButtons {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.containerNavButtons div {
+  padding: 1rem 2.2rem;
+  text-align: center;
+  transition: var(--transition-short);
+
+  cursor: pointer;
+}
+.containerNavButtons div:hover {
+  background: var(--secondary-text-Color);
+}
+.links {
+  text-decoration: none;
+  color: rgb(87, 66, 51);
+}
+/* NAVBAR */
