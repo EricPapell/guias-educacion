@@ -7,7 +7,7 @@ function NavbarGuias() {
       <div className={styles.containerNavButtons}>
         <Link className={styles.links} href="certificaciones">
           <div>
-            <p>Certificaciones</p>
+            <p>Certificaciones/Programas</p>
           </div>
         </Link>
         <Link className={styles.links} href="idiomas">

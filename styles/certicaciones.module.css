@@ -24,8 +24,8 @@
   text-align: center;
 }
 .containerCertificadosBox {
-  margin-top: 2rem;
-  margin-bottom: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -46,7 +46,7 @@
   object-fit: cover;
 }
 .containerCertificadosBox div:hover {
-  transform: scale(1.15);
+  transform: scale(1.25);
 }
 
 /* certficados box */
@@ -65,5 +65,10 @@
   text-align: center;
   padding: 1rem;
   box-shadow: 1px 1px 5px rgb(126, 126, 126);
+}
+.containerSubtituloTitulo {
+  width: 80vw;
+  margin: 0 auto;
+  text-align: center;
 }
 /* colegios */

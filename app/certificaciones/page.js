@@ -1,6 +1,11 @@
 import styles from "../../styles/certicaciones.module.css";
 import Image from "next/image";
-import efqm from "../../public/efqm.png";
+import efqm from "../../public/efqm-01.png";
+import cognia from "../../public/cog-01.png";
+import iso from "../../public/iso-01.png";
+import igse from "../../public/igse-01.png";
+import ib from "../../public/ib-01.png";
+import dual from "../../public/dual-01.png";
 function certificaciones() {
   return (
     <section className={styles.container}>
@@ -46,28 +51,32 @@ function certificaciones() {
         </p>
       </div>
       <h1 className={styles.callToAction}>
-        ¡Descubre los colegios que cuentan con las certificaciones que te
-        interesan!
+        ¡Descubre los colegios que cuentan con las certificaciones y programas
+        que te interesan!
       </h1>
       <div className={styles.containerCertificadosBox}>
         <div>
           <Image className={styles.logoImg} src={efqm} />
         </div>
         <div>
-          <Image className={styles.logoImg} src={efqm} />
+          <Image className={styles.logoImg} src={cognia} />
         </div>
         <div>
-          <Image className={styles.logoImg} src={efqm} />
+          <Image className={styles.logoImg} src={iso} />
         </div>
         <div>
-          <Image className={styles.logoImg} src={efqm} />
+          <Image className={styles.logoImg} src={igse} />
         </div>
         <div>
-          <Image className={styles.logoImg} src={efqm} />
+          <Image className={styles.logoImg} src={ib} />
         </div>
         <div>
-          <Image className={styles.logoImg} src={efqm} />
+          <Image className={styles.logoImg} src={dual} />
         </div>
+      </div>
+      <div className={styles.containerSubtituloTitulo}>
+        <p>EFQM</p>
+        <p>European Foundation for Quality Management</p>
       </div>
       <div className={styles.containerLogoBox}>
         <div className={styles.LogoCard}>
