@@ -1,0 +1,69 @@
+.container {
+  margin-top: 3rem;
+}
+.containerBox {
+  width: 80vw;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.containerBox h4 {
+  margin-top: 0.8rem;
+}
+.containerBox p {
+  margin-top: 1rem;
+}
+
+/* certficados box */
+.containerCertificadosBox {
+  width: 80vw;
+
+  margin: 0 auto;
+}
+.callToAction {
+  margin-top: 3rem;
+  text-align: center;
+}
+.containerCertificadosBox {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.containerCertificadosBox div {
+  padding: 0.2rem;
+  width: 200px;
+  height: 200px;
+
+  cursor: pointer;
+  transition: var(--transition-short);
+}
+
+.logoImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.containerCertificadosBox div:hover {
+  transform: scale(1.15);
+}
+
+/* certficados box */
+
+/* colegios */
+.containerLogoBox {
+  width: 80vw;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  gap: 3rem;
+  justify-content: center;
+}
+.LogoCard {
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 1px 1px 5px rgb(126, 126, 126);
+}
+/* colegios */
