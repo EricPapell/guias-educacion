@@ -1,6 +1,6 @@
 .footer {
   width: 100vw;
-  padding-top: 3rem;
+  padding-top: 2rem;
   padding-bottom: 2rem;
   position: relative;
   bottom: 0;
@@ -29,7 +29,6 @@
 
 /* text */
 .subtitle {
-  font-size: 0.95rem;
   letter-spacing: 1px;
   margin-bottom: 2rem;
   line-height: 1.5rem;
@@ -49,7 +48,6 @@
   border-right: 1px solid rgba(255, 255, 255, 0.741);
   padding-right: 0.75rem;
   margin-right: 0.75rem;
-  margin-bottom: 1rem;
 }
 .infoContactoMail,
 .infoContactoMail2 {
@@ -76,8 +74,8 @@
 .copyright {
   max-width: 90vw;
   margin: 0 auto;
-  margin-top: 3rem;
-  padding-bottom: 3rem;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
 }
 /* copyrigth */
 

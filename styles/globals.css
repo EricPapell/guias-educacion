@@ -22,6 +22,10 @@ body {
 html {
   font-size: 1.2rem;
 }
+p {
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  font-size: 0.95rem;
+}
 /* derecha */
 /* letra mas grande */
 /* cambiar foto como lo hacemos? */

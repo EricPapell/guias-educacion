@@ -1,9 +1,18 @@
 /* CARROUSSEL */
+.containerSlider {
+  position: relative;
+  height: 500px;
+  width: 100vw;
+  overflow-x: hidden;
+}
 .containerCarrousel {
   width: 100vw;
   height: 500px;
-  position: relative;
+  position: absolute;
+  top: 0;
+  transition: all 0.75s linear;
 }
+
 .imageCarrousel {
   position: absolute;
   top: 0;
@@ -54,7 +63,7 @@
   border: transparent;
   color: aliceblue;
   cursor: pointer;
-  width: 35px;
+  font-size: 3rem;
   transition: var(--transition-short);
 }
 .buttonRight:hover {

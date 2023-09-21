@@ -6,6 +6,10 @@ import iso from "../../public/iso-01.png";
 import igse from "../../public/igse-01.png";
 import ib from "../../public/ib-01.png";
 import dual from "../../public/dual-01.png";
+import i1 from "../../public/cf-logos-bebemundo.jpeg";
+import i2 from "../../public/cf-logos-malldelsur.jpg";
+import i3 from "../../public/logo.png";
+import i4 from "../../public/pomasqui.jpg";
 function certificaciones() {
   return (
     <section className={styles.container}>
@@ -51,8 +55,8 @@ function certificaciones() {
         </p>
       </div>
       <h1 className={styles.callToAction}>
-        ¡Descubre los colegios que cuentan con las certificaciones y programas
-        que te interesan!
+        ¡Descubre los colegios con las certificaciones y programas que te
+        interesan!
       </h1>
       <div className={styles.containerCertificadosBox}>
         <div>
@@ -80,19 +84,19 @@ function certificaciones() {
       </div>
       <div className={styles.containerLogoBox}>
         <div className={styles.LogoCard}>
-          <Image className={styles.logoImg} src={efqm} />
+          <Image className={styles.logoColoegio} src={i1} />
           <button>EXPLORA!</button>
         </div>
         <div className={styles.LogoCard}>
-          <Image className={styles.logoImg} src={efqm} />
+          <Image className={styles.logoColoegio} src={i2} />
           <button>EXPLORA!</button>
         </div>
         <div className={styles.LogoCard}>
-          <Image className={styles.logoImg} src={efqm} />
+          <Image className={styles.logoColoegio} src={i3} />
           <button>EXPLORA!</button>
         </div>
         <div className={styles.LogoCard}>
-          <Image className={styles.logoImg} src={efqm} />
+          <Image className={styles.logoColoegio} src={i4} />
           <button>EXPLORA!</button>
         </div>
       </div>

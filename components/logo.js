@@ -1,11 +1,15 @@
 import styles from "../styles/layout.module.css";
-
+import Image from "next/image";
+import Link from "next/link";
+import img from "../public/logo.png";
 function Logo() {
   return (
     <div className={styles.containerLogo}>
-      <p>LOGO</p>
+      <Link href="/">
+        <Image alt="logo" className={styles.containerLogoImg} src={img} />
+      </Link>
       <div className={styles.containerLogoCiudad}>
-        <label for="ciudad">Ciudad</label>
+        <p>Ciudad</p>
         <select id="ciudad">
           <option className={styles.option} value="quito">
             Quito y Valles{" "}

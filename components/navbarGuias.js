@@ -7,37 +7,37 @@ function NavbarGuias() {
       <div className={styles.containerNavButtons}>
         <Link className={styles.links} href="certificaciones">
           <div>
-            <p>Certificaciones/Programas</p>
+            <h3>Certificaciones/Programas</h3>
           </div>
         </Link>
         <Link className={styles.links} href="idiomas">
           <div>
-            <p>Idiomas</p>
+            <h3>Idiomas</h3>
           </div>
         </Link>
         <Link className={styles.links} href="intercambios-estudiantiles">
           <div>
-            <p>Intercambios</p>
+            <h3>Intercambios</h3>
           </div>
         </Link>
         <Link className={styles.links} href="pension">
           <div>
-            <p>Pensión</p>
+            <h3>Pensión</h3>
           </div>
         </Link>
         <Link className={styles.links} href="becas">
           <div>
-            <p>Becas</p>
+            <h3>Becas</h3>
           </div>
         </Link>
         <Link className={styles.links} href="educacion-especial">
           <div>
-            <p>Educación Especial</p>
+            <h3>Educación Especial</h3>
           </div>
         </Link>
         <Link className={styles.links} href="home-school">
           <div>
-            <p>Home School</p>
+            <h3>Home School</h3>
           </div>
         </Link>
       </div>

@@ -60,15 +60,39 @@
   grid-template-columns: repeat(auto-fit, 300px);
   gap: 3rem;
   justify-content: center;
+  margin-top: 2rem;
 }
 .LogoCard {
   text-align: center;
   padding: 1rem;
   box-shadow: 1px 1px 5px rgb(126, 126, 126);
+  background: white;
 }
 .containerSubtituloTitulo {
   width: 80vw;
   margin: 0 auto;
   text-align: center;
+}
+.logoColoegio {
+  width: 100%;
+  height: 70%;
+  object-fit: contain;
+}
+.LogoCard button {
+  background-color: var(--secondary-text-Color);
+  letter-spacing: 1px;
+  border: transparent;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  color: white;
+  margin-top: 1.2rem;
+  cursor: pointer;
+  transition: var(--transition-short);
+}
+.LogoCard button:hover {
+  transform: scale(1.05);
+}
+.containerSubtituloTitulo p {
+  font-size: 1.5rem;
 }
 /* colegios */

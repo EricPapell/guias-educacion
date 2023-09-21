@@ -17,11 +17,7 @@ function ContactoBar() {
     <footer className={styles.footer}>
       <Image src={backImage} alt="backImage" className={styles.image} />
       <div className={styles.container}>
-        <p className={styles.subtitle}>
-          Recibe una asesoría personalizada. Estamos disponibles los días martes
-          y miércoles de 08:30 a 15:30 en el Inca (Chalupas E7-21 y Francisco de
-          Izazaga). Previa cita.
-        </p>
+        <h2 className={styles.subtitle}>CONTÁCTANOS</h2>
         <div className={styles.infoContainer}>
           <p className={styles.infoContactoUbi}>
             <span className={styles.spanInfo}>
