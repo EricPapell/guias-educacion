@@ -60,22 +60,22 @@ function certificaciones() {
       </h1>
       <div className={styles.containerCertificadosBox}>
         <div>
-          <Image className={styles.logoImg} src={efqm} />
+          <Image alt="logo" className={styles.logoImg} src={efqm} />
         </div>
         <div>
-          <Image className={styles.logoImg} src={cognia} />
+          <Image alt="logo" className={styles.logoImg} src={cognia} />
         </div>
         <div>
-          <Image className={styles.logoImg} src={iso} />
+          <Image alt="logo" className={styles.logoImg} src={iso} />
         </div>
         <div>
-          <Image className={styles.logoImg} src={igse} />
+          <Image alt="logo" className={styles.logoImg} src={igse} />
         </div>
         <div>
-          <Image className={styles.logoImg} src={ib} />
+          <Image alt="logo" className={styles.logoImg} src={ib} />
         </div>
         <div>
-          <Image className={styles.logoImg} src={dual} />
+          <Image alt="logo" className={styles.logoImg} src={dual} />
         </div>
       </div>
       <div className={styles.containerSubtituloTitulo}>
@@ -84,19 +84,19 @@ function certificaciones() {
       </div>
       <div className={styles.containerLogoBox}>
         <div className={styles.LogoCard}>
-          <Image className={styles.logoColoegio} src={i1} />
+          <Image alt="logo" className={styles.logoColoegio} src={i1} />
           <button>EXPLORA!</button>
         </div>
         <div className={styles.LogoCard}>
-          <Image className={styles.logoColoegio} src={i2} />
+          <Image alt="logo" className={styles.logoColoegio} src={i2} />
           <button>EXPLORA!</button>
         </div>
         <div className={styles.LogoCard}>
-          <Image className={styles.logoColoegio} src={i3} />
+          <Image alt="logo" className={styles.logoColoegio} src={i3} />
           <button>EXPLORA!</button>
         </div>
         <div className={styles.LogoCard}>
-          <Image className={styles.logoColoegio} src={i4} />
+          <Image alt="logo" className={styles.logoColoegio} src={i4} />
           <button>EXPLORA!</button>
         </div>
       </div>

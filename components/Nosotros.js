@@ -38,7 +38,7 @@ function Nosotros() {
         </p>
       </div>
       <div className={styles.containerImage}>
-        <Image className={styles.Image} src={img} />
+        <Image alt="nosotros" className={styles.Image} src={img} />
       </div>
     </div>
   );

@@ -146,7 +146,7 @@ function Carroussel() {
           </button>
         </div>
         <div className={styles.layer}></div>
-        <Image className={styles.imageCarrousel} src={img3} />
+        <Image alt="carroussel" className={styles.imageCarrousel} src={img3} />
       </section>
     </div>
   );
