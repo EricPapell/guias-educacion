@@ -14,7 +14,7 @@
 }
 body {
   height: 100vh;
-  background: rgb(250, 250, 251);
+  background: rgb(247, 247, 248);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -25,6 +25,10 @@ html {
 p {
   font-family: Calibri, "Trebuchet MS", sans-serif;
   font-size: 0.95rem;
+}
+a {
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
 }
 /* derecha */
 /* letra mas grande */

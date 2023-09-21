@@ -55,8 +55,8 @@ function certificaciones() {
         </p>
       </div>
       <h1 className={styles.callToAction}>
-        ¡Descubre los colegios con las certificaciones y programas que te
-        interesan!
+        ¡Descubre los centros educativos con las certificaciones y programas que
+        te interesan!
       </h1>
       <div className={styles.containerCertificadosBox}>
         <div>

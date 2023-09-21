@@ -23,7 +23,7 @@ function ContactoBar() {
             <span className={styles.spanInfo}>
               <FontAwesomeIcon className={styles.icon} icon={faLocationDot} />
             </span>
-            El Inca (Chalupas E7-21 y Francisco de Izazaga), Quito - Ecuador`
+            El Inca (Chalupas E7-21 y Francisco de Izazaga), Quito - Ecuador
           </p>
           <p className={styles.infoContactoTelf}>
             <span className={styles.spanInfo}>

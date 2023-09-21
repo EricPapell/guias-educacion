@@ -4,7 +4,7 @@ import Image from "next/image";
 import img from "../../public/back-5.jpg";
 import img2 from "../../public/bg-4.jpg";
 import img3 from "../../public/bg-3.jpg";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronLeft,
@@ -18,19 +18,9 @@ const numeroArticulos = 3;
 const x = (numeroArticulos - 1) * -100;
 
 function Carroussel() {
-  // const [count, setCount] = useState(0);
   let id;
   const [style, setstyle] = useState(0);
-  // let y = useRef(0);
 
-  // function handleY() {
-  //   setInterval(() => {
-  //     y.current = y.current + 1;
-  //   }, 1000);
-  // }
-  // handleY();
-  // console.log(y);
-  // // const [count, setCount] = useState(0);
   const handleRight = function () {
     setstyle(style - 100);
     clearInterval(id);
